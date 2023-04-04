@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+    width:100vw;
+    height:auto;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  transition: all 2000ms;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  }
+.container {
+  padding: 5% 10%;
+}
+.clock {
+  margin: 0 auto;
+
+
+}
+.group-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#time-btn {
+  padding: 1%;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+#color-btn {
+  padding: 1%;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+* when mobile @ screen < 600px, flex direction column */
+@media (max-width: 600px) {
